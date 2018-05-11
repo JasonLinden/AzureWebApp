@@ -16,7 +16,7 @@ namespace AzureWebApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = ConfigurationManager.AppSettings["test"];
+            ViewBag.Message = ConfigurationManager.AppSettings["wessels"];
 
             return View();
         }
